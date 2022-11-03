@@ -1,0 +1,33 @@
+<?php
+$texto = "ola Mundo";
+
+echo strlen($texto);
+
+// retorna o tamanho da string 
+// obs: espacos contam
+
+echo "<br>";
+
+echo str_word_count($testo);
+// retorna o numero de palavras da string
+
+echo "<br>";
+
+echo strrev($texto);
+//reverter uma strig
+
+echo "<br>";
+
+echo strpos($texto, "M"); 
+// procura uma substrig dentro da string 
+// conta começa do zero
+// vai retornar a posição da primeira ocorrencia 
+
+
+echo str_replace($texto, "Mundo", "Mundo");
+echo $texto;
+
+// substitui uma parte da string
+// primeiro valor  - quem sera substituido 
+// segundo valor  - o que sera colocado no lugar 
+// terceiro valor - a strig onvai ocorreer a substituicão
